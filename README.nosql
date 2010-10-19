@@ -1,0 +1,15 @@
+==Riak Initial Data Load
+* Documents have been loaded into the 'docs' bucket
+* Each document has the following key and format:
+  pr_page_ts: doc_id {
+    ts:
+    pr:
+    page:
+    count:
+    bytes:
+  }
+* The data load script can be found on the ebs, called load.sh
+
+==Apache HTTP Server Access
+* nosql:t35t1ng!
+
